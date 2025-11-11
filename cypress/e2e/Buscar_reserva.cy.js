@@ -10,6 +10,6 @@ describe("buscar reserva", () => {
     })
 
     it("buscar reserva como string", () => { // essa api permite numeros como string
-        cy.buscar_inexistente("5")
+        cy.buscar_inexistente("'5'")
     })
 })
